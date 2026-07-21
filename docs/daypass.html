@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Buy a Day Pass | Absolute Recomp — Wellgentic Demo</title>
+<meta name="description" content="Buy an Absolute Recomp day pass online — demo flow with SMS verification, digital waiver and QR check-in.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500;1,600;1,700&family=Poppins:wght@300;400;500;600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/img/ar-logo.svg">
+<link rel="stylesheet" href="assets/css/arx.css">
+<link rel="stylesheet" href="assets/css/arx-widget.css">
+<script>window.dataLayer = window.dataLayer || [];</script>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="hdr__in">
+    <a class="hdr__logo" href="index.html"><img src="assets/img/ar-logo.svg" alt="Absolute Recomp"></a>
+    <nav class="hdr__nav" aria-label="Primary">
+      <a href="index.html#locations">Locations</a>
+      <a href="faq.html">FAQ</a>
+      <a href="index.html#experience">The Experience</a>
+      <a href="index.html#contact">Contact Us</a>
+    </nav>
+    <div class="hdr__cta">
+      <a class="sk-btn sk-btn--red" href="https://join2.absoluterecompgyms.com/subscribe/location" target="_blank" rel="noopener"><span>Join Now</span></a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero hero--page" style="min-height:52svh">
+    <div class="hero__media"><img src="assets/img/tile-247.jpg" alt=""></div>
+    <div class="hero__in">
+      <p class="kicker">Full access · any location · never expires</p>
+      <h1 class="disp h1" style="font-size:clamp(52px,8vw,130px)">BUY A <span class="accent glow">DAY PASS</span></h1>
+      <p class="hero__sub">Pick a pack, verify your phone, sign the waiver — and walk in with a QR code. About two minutes, start to finish.</p>
+    </div>
+  </section>
+
+  <section class="sec sec--tight">
+    <div class="wrap" style="max-width:900px">
+      <div id="daypassApp" aria-live="polite">
+        <noscript><p class="body-copy">This flow needs JavaScript. You can always grab a pass in person at any location — we're staffed 24/7.</p></noscript>
+      </div>
+      <p class="dp-note" style="margin-top:22px">Prefer to do it in person? Every location is staffed 24/7/365 — walk in any time. Questions? Ask <strong style="color:#fff">Atlas</strong> in the corner.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__top">
+      <a class="ftr__logo" href="index.html"><img src="assets/img/ar-logo.svg" alt="Absolute Recomp"></a>
+      <nav class="ftr__nav">
+        <a href="index.html#locations">Locations</a>
+        <a href="faq.html">FAQ</a>
+        <a href="daypass.html">Day Passes</a>
+        <a href="https://www.instagram.com/absoluterecomp/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+      <a class="sk-btn sk-btn--red" href="https://join2.absoluterecompgyms.com/subscribe/location" target="_blank" rel="noopener"><span>Join Now</span></a>
+    </div>
+    <div class="ftr__legal">
+      <span>© 2026 Absolute Recomp LLC. All Rights Reserved.</span>
+      <span>Demo flow — Twilio verification simulated; ABC Fitness (Ignite) prospect creation stubbed for integration.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="demo-ribbon"><b>Wellgentic demo</b> · online day-pass flow · Twilio verify + ABC Ignite prospect + digital waiver + QR check-in</div>
+
+<script>
+window.ARX_DAYPASS = {
+  packs: [
+    { name: "1-Pass Pack", price: "$25 + tax", desc: "One full-access visit to any Absolute Recomp location." },
+    { name: "5-Pass Pack", price: "$85 + tax", desc: "Five visits — $17 per visit. No expiration date." },
+    { name: "7-Pass Pack", price: "$105 + tax", desc: "Seven visits — $15 per visit. No expiration date.", featured: true }
+  ]
+};
+window.ARX_CHAT = window.ARX_CHAT || {};
+window.ARX_CHAT.phone = "(817) 793-2687";
+</script>
+<script>window.addEventListener("load",function(){setTimeout(function(){document.documentElement.classList.add("smooth-scroll");},80);});</script>
+<script src="assets/js/daypass.js" defer></script>
+<script src="assets/js/arx-widget.js" defer></script>
+</body>
+</html>
